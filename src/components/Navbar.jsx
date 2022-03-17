@@ -19,10 +19,10 @@ export default function Navbar() {
   useEffect(() => {
      if(value === 0) {
        history.push("/");
-  } else if (value === 1) {
-    history.push("/movies")
-  } else if (value === 2) {
-    history.push("/about")
+     } else if (value === 1) {
+       history.push("/movies")
+     } else if (value === 2) {
+       history.push("/about")
   } 
   }, [value, history]);
 

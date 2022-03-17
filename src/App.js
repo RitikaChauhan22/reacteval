@@ -9,13 +9,14 @@ import About from './components/About';
 
 function App() {
   return (
-   
+  
   //  <BrowserRouter>
-  //      <Navbar />
+      
   //      <div className="App">
          
   //       <Container>
   //         <Switch>
+
   //             <Route path="/" component={Home} />
   //             <Route path="/movies" component={MoviesDashboard} />
   //             <Route path="/about" component={About} />
@@ -23,11 +24,14 @@ function App() {
   //         </Switch>
   //       </Container> 
     
+  //       <Navbar />
+     
   //      </div>
+       
   //   </BrowserRouter>
-  <>
-    <MoviesDashboard/> 
-    </>
+ <>
+   <MoviesDashboard /> 
+ </> 
   );
 }
 
