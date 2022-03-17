@@ -44,7 +44,7 @@ const MoviesDashboard = () => {
       </div>
 
 
-      <div className="movieContainer" style={{display: 'flex'}}>
+      <div className="movieContainer">
         {
           content && content.map((c) =>
             <SingleMovieDetails

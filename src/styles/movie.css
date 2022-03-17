@@ -1,0 +1,11 @@
+*{
+    width: 100%;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.div{
+   display: inline-grid;
+   width: 100%;
+   padding: 10px
+}
